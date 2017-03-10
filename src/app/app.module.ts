@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
+import { DynamicQuestionComponent } from './dynamic-question/dynamic-question.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DynamicFormComponent
+    DynamicFormComponent,
+    DynamicQuestionComponent
   ],
   imports: [
     BrowserModule,
